@@ -10,15 +10,16 @@ def expenses_tracker():
         amount = float(input("Enter amount: "))
         total += amount
         one_expense = {
-            expense: amount
+            "item": expense
+            "amount":amount
         }
         # expense + amount
         expenses.append(one_expense)
         another = input("Do you want another expenses? (yes/no): ")
         if another == "no" or another == "n":
             break
-    print(expenses)
-    print(f"Total cost spent: ₦{amount}")
+    # print(expenses)
+    # print(f"Total cost spent: ₦{amount}")
     print(f"expense: {expense}")
     print(f"total expenses: ₦{total}")
         
