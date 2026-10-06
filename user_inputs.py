@@ -1,0 +1,51 @@
+#name = input("What is your name? ")
+#age = input("How old are you? ")
+
+#print(name)
+#print(int(age))
+
+
+#age = int(input("Enter your age"))
+#print("You'll be", age+5, " years old in the next five years")
+
+
+# name = input("What is your name? ")
+# age = input("How old are you? ")
+
+# print(name)
+# print(int(age))
+
+# age = int(input("Enter your age: "))
+# print("You'll be", age+5, "years old in the next five years")
+
+# try:
+#     first_number = int(input("Enter the first number: "))
+#     second_number = int(input("Enter the second number: "))
+# except ValueError:
+#     print("Invalid input! Please enter numbers only.")
+#     exit()
+
+# print("Sum:", first_number + second_number)
+# print("Difference:", first_number - second_number)
+# print("Product:", first_number * second_number)
+
+# # This checks that the number is just not zero (negatives are allowed!)
+# if second_number != 0:
+#     print("Quotient:", first_number / second_number)
+# else:
+#     print("Cannot be divided by zero")
+
+try:
+    first_number = int(input("Enter the first number: "))
+    second_number = int(input("Enter the second number: "))
+except:
+    print("invalid input")
+    exit()
+print("sum:", first_number+second_number)
+print("Difference:", first_number-second_number)
+print("Product:", first_number*second_number)
+if second_number > 0:
+    print("Quotient:", first_number/second_number)
+else:
+    print("cannot be divided by zero")
+
