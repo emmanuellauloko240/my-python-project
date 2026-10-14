@@ -77,14 +77,34 @@
 
 # try it  yourself python crash course
 
-names = ['Enayi','Enenu','Emiene','Ebokeche']
+# names = ['Enayi','Enenu','Emiene','Ebokeche']
 
-message = f"i'd love to invite y'all for dinner: {names}"
+# message = f"i'd love to invite y'all for dinner: {names}"
  
-print(message)
+# print(message)
 
 # motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles)
 # popped_motorcycle = motorcycles.pop()
 # print(motorcycles)
 # print(popped_motorcycle)
+
+# motorcycles = []
+# print(motorcycles[-3])
+
+# magicians = ['alice','david','carolina']
+# for magician in magicians:
+#     print(magician.title() + ", that was a great trick!")
+#     print("I can't wait to see your next trick, " + magician.title() + ".\n")
+
+
+#     print("Thank you everyone, that was a great magic show!, " + magician.title() + "\n")
+
+# MAKING NUMERICAL LIST 
+
+# for value in range(1,100):
+#     print("Ella am sorry, ", value)
+#     print("i'm good😵", value)
+
+class BankAccount:
+    pass
